@@ -1,5 +1,8 @@
 <template>
-    <el-button type="primary" @click="increment">{{ state.count }}</el-button>
+    <div>
+        <el-button type="primary" @click="increment">{{ state.count }}</el-button>
+        <div>这是一个新的demo</div>
+    </div>
 </template>
 
 <script setup lang="ts">
