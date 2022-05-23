@@ -1,0 +1,3 @@
+[submodule "my_vite_component"]
+	path = my_vite_component
+	url = https://github.com/zhoujiankang/my_vite_component.git
