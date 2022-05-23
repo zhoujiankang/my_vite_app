@@ -1,12 +1,14 @@
 <template>
     <div>
         <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+        <HelloWorld_1 msg="Hello Vue 3 + TypeScript + Vite" />
         <span>23</span>
     </div>
 </template>
 
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue';
+import HelloWorld_1 from './com/src/components/HelloWorld.vue';
 </script>
 
 <style>

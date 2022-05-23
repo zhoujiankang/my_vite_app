@@ -6,9 +6,9 @@
 import { ref, reactive } from 'vue';
 defineProps<{ msg: string }>();
 // 增加按钮
-const state = reactive({count: 0});
+const state = reactive({ count: 0 });
 const increment = () => {
-    state.count ++;
+    state.count++;
 };
 </script>
 
